@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  bottom:0;
+  right: 200px;
+}
+.rectangle {
+ position: absolute;
+ width: 550px;
+ bottom: -10px;
+ right: -40px;
+}
+.ellipse {
+ position: absolute;
+ box-shadow: 150px 20px 250px 130px rgba(255, 255, 255, 1);
+ bottom: 400px;
+}
+
+.quote, 
+.author {
+  width: 300px;
+  bottom: 100px;
+  right: 0;
+}
+.img-box {
+  position: relative;
+  bottom: 20px;
+}
+.text-box {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title{
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  line-height: 1;
+  font-family: 'NoizeSportFreeVertion-Regular';
+  font-size: 6rem;
+}
+@media (max-width: 576px) { 
+  .title {
+    font-size: 3rem;
+  }
+ }

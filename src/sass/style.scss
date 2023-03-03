@@ -1,0 +1,46 @@
+$primary: #D86451;
+$dark :#061319;
+
+@import "/Users/hellcat/Desktop/FIT_UP/node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import '_hero';
+@import '_info';
+@import '_plans';
+@import '_cards';
+
+@font-face {
+  font-family: 'NoizeSportFreeVertion-Regular';
+  src: url('../font/NoizeSportFreeVertion-Regular.ttf');
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+section {
+  padding: 0 40px;
+}
+img {
+  width: 130px;
+  height: 30px;
+}
+
+::placeholder {
+  text-align: start;
+}
+
+.navbar-nav  {
+
+  a {
+    margin: 0 30px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+}
+
+
+.bmi-section{
+  bottom: -30px;
+  left: 0;
+  right: 0;
+}

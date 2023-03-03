@@ -1,0 +1,54 @@
+.cards {
+  background-color: #030F14;
+}
+.plan {
+ position: relative;
+ width: 315px;
+  height: 560px;
+ margin-top: -100px;
+ box-shadow: -10px 9px 10px 0px rgba(0, 0, 0, 1);
+ filter: brightness(80%);
+ transition: all .3s ease-out;
+}
+.plan:hover{
+  filter: brightness(100%);
+  transform: translateY(-10px);
+  transition: all .3s ease-in;
+}
+.img-card{
+  position: absolute;
+  left: 0;
+  width: 315px;
+  height: 412px;
+}
+.card-text{
+  bottom: 30px;
+}
+
+.price {
+  font-family: 'NoizeSportFreeVertion-Regular';
+  height: 53px;
+  bottom: 160px;
+  left: 0;
+  font-size: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  text-transform: uppercase;
+  top: 20px;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  a {
+    text-decoration: none;
+  }
+}
+@media (max-width: 576px) { 
+  .plan {
+    margin-bottom: 150px;
+  }
+ }
