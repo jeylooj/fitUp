@@ -1,0 +1,14 @@
+.price , 
+.plan{
+  font-family: 'NoizeSport';
+position: absolute;
+margin: 0 auto;
+padding: .5rem;
+}
+
+.plan {
+  top: 1rem;
+}
+.price {
+  bottom: 200px;
+}
