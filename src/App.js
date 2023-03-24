@@ -40,7 +40,6 @@ return (
 )
 })}
 </section>
-<Title title='BMI Calculator'/>
 <Footer/>
 </Route>
   <Route path="/about">
