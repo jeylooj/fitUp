@@ -14,11 +14,11 @@ export default function Home() {
     <div className={`${openSans.variable}`}>
       <HeroSection/>
       <InfoBar/>
-      <h2 className='text-white flex text-center align-middle justify-center text-2xl  lg:text-4xl py-20' style={{letterSpacing:'5px'}}>
+      <h2 className='text-white flex text-center align-middle justify-center text-2xl  lg:text-4xl py-20' style={{letterSpacing:'5px'}} id='plans'>
         Plans and Prices
       </h2>
       <Plans/>
-      <h2 className='text-white flex text-center align-middle justify-center text-2xl  lg:text-4xl py-20' style={{letterSpacing:'5px'}}>
+      <h2 className='text-white flex text-center align-middle justify-center text-2xl  lg:text-4xl py-20' style={{letterSpacing:'5px'}} id='gallery'>
         Watch Us in action
       </h2>
       <Gallery/>
