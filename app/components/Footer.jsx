@@ -12,7 +12,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className="px-5 py-2">
-                    <a href="#gallery" className="text-base leading-6 hover:text-primary">
+                    <a href="/gallery" className="text-base leading-6 hover:text-primary">
                         Gallery
                     </a>
                 </div>
