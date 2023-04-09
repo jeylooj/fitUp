@@ -1,4 +1,4 @@
-import { Inter } from 'next/font/google'
+import { Inter, Open_Sans } from 'next/font/google'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/Navbar'
 import InfoBar from './components/InfoBar'
@@ -7,11 +7,11 @@ import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 
 
-// const inter = Inter({ subsets: ['latin'] })
+const openSans = Open_Sans({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>
+    <div className={`${openSans.variable}`}>
       <HeroSection/>
       <InfoBar/>
       <h2 className='text-white flex text-center align-middle justify-center text-2xl  lg:text-4xl py-20' style={{letterSpacing:'5px'}}>
