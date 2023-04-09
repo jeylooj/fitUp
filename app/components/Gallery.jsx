@@ -2,7 +2,7 @@ import React from 'react';
 import GalleryData from '../GalleryData';
 const Gallery = () => {
   return (
-    <section className='grid lg:grid-cols-4 md:grid-cols-2 p-10 gap-10 bg-secondary w-full place-items-center text-center'>
+    <section className='grid lg:grid-cols-4 md:grid-cols-2 p-10 gap-10 bg-secondary w-full place-items-center text-center' id='gallery'>
       {
         GalleryData.map((e)=>{
           return (

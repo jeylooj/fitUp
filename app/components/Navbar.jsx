@@ -50,14 +50,14 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 <li className=" py-2 md:px-6 border-b-2 md:border-b-0  border-secondary">
-                  <Link href="#plans" onClick={() => setNavbar(!navbar)}>
+                  <a href="/#plans" onClick={() => setNavbar(!navbar)}>
                     Plans
-                  </Link>
+                  </a>
                 </li>
                 <li className=" py-2 md:px-6 border-b-2 md:border-b-0  border-secondary">
-                  <Link href="#gallery" onClick={() => setNavbar(!navbar)}>
+                  <a href="/#gallery" onClick={() => setNavbar(!navbar)}>
                     Gallery
-                  </Link>
+                  </a>
                 </li>
                 <li className=" py-2 md:px-6 border-b-2 md:border-b-0  border-secondary">
                   <Link href="/blog" onClick={() => setNavbar(!navbar)}>

@@ -4,7 +4,7 @@ import  'styles/plans.module.css';
 const Plans = () => {
   
   return (
-    <section className='grid lg:grid-cols-3 md:grid-cols-2 p-10 gap-10 bg-secondary w-full place-items-center text-center'>
+    <section className='grid lg:grid-cols-3 md:grid-cols-2 p-10 gap-10 bg-secondary w-full place-items-center text-center' id='plans'>
       {
         PlansData.map((e)=>{
           return (
