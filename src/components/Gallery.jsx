@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Gallery({name,video,description}) {
   return (
-    <div className="">
+    <div className="" id="galley">
     <div className="col">
       <div className="card bg-dark">
       <iframe src={video} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="embed-responsive embed-responsive-4by3 rounded-3" style={{height:'400px'}}></iframe>
