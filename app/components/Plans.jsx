@@ -9,7 +9,7 @@ const Plans = () => {
         PlansData.map((e)=>{
           return (
             
-            <div className="bg-secondary relative w-80 rounded-lg shadow text-white">
+            <div className="bg-secondary relative w-80 rounded-lg shadow text-white" key={e.id} >
             <img
               src={e.image}
               alt=""
